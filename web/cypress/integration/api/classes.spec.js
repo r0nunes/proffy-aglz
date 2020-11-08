@@ -24,7 +24,7 @@ context('Classes endpoint', () => {
              }
         }).then((response) => { 
             expect(response.status).to.eq(201)
-            expect(response.duration).lt(30)
+            expect(response.duration).lt(45)
             expect(response.headers)
                 .to.have.property('content-type')
                 .an('string')
