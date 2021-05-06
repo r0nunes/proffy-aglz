@@ -3,5 +3,8 @@
   "apiURL": "http://localhost:3333",
   "experimentalComponentTesting": true,
   "componentFolder": "cypress/component",
-  "projectId": "i1rd4a"
+  "projectId": "i1rd4a",
+
+  "viewportWidth": 1920,
+  "viewportHeight": 1080
 }
